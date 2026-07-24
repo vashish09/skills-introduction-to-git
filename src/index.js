@@ -61,6 +61,8 @@ function init() {
   // Set initial target pattern
   setNewTargetPattern();
 
+  document.getElementById("high-score").textContent = highScore;
+
   // Spawn first piece
   spawnPiece();
 
